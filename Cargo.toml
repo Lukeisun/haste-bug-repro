@@ -1,0 +1,8 @@
+[package]
+name = "deadlock_replays"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+haste = { git = "https://github.com/blukai/haste.git", features = ["deadlock", "preserve-metadata", "protobuf-src"] }
+anyhow = "1.0.86"
